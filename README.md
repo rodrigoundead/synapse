@@ -1,12 +1,9 @@
 # Synapse
-
 #### Synapse help to do not repeat yourself
-
  You can display messages using redirect instead of render on Django only with Python
  If you have a view and only need to display a message, you can use Synapse message to set redirect instead of render, this avoid to set the values of all the objects of this view again.
  For example, if you have a list of itens and the user click in one of the items in this list, and see a page about this item, in this page the user is able to make a comment about this item. If he tries to comment and some error occurs you want to display an error msg to this user, to do that you need to render the view and set the values in all the objects
 <p>
- 
 </p>
 
 > **To import:**
@@ -68,7 +65,6 @@
 ```
 
 <p>
-
 </p>
 
 ---
