@@ -6,10 +6,11 @@
  If you have a view and only need to display a message, you can use Synapse message to set redirect instead of render, this avoid to set the values of all the objects of this view again.
  For example, if you have a list of itens and the user click in one of the items in this list, and see a page about this item, in this page the user is able to make a comment about this item. If he tries to comment and some error occurs you want to display an error msg to this user, to do that you need to render the view and set the values in all the objects
 <p>
+ 
 </p>
 
-> ** To import:**
->```
+> **To import:**
+```
  from synapse.message import set_message, get_message
 ```
 <p>
@@ -45,6 +46,7 @@
 ```
 <p>
 </p>
+
 > **On template:**
 >> this in the html to display a message:
 >>
@@ -72,8 +74,9 @@
 ---
 <p>
 
-    **Generic Code Example:**
 </p>
+
+**Generic Code Example:**
 
 > With Synapse:
 
@@ -122,8 +125,9 @@ def remove_from_list(request, object_id):
 ___
 <p>
 
-    **A Simplistic Code Example:**
 </p>
+
+**A Simplistic Code Example:**
 
 <p>
 This in the html file to use with bootstrap
